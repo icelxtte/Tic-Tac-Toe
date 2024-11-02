@@ -1,0 +1,38 @@
+/*Programmer: Sachorra Douglas
+Date: 11/2/2024
+Project: Tic Tac Toe Game made with HTML,CSS & JS*/
+
+/*This determines how each individual cell looks*/
+.cell{
+    width:75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height:75px;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+/** This is how we changed cell container from columns to grids **/
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px ;
+    margin: auto;
+}
+
+.footer {
+    text-align:center;
+    line-height: 100px;
+    font-family: "Permanent Marker", cursive;
+}
+#restartBtn{
+    font-family: "Permanent Marker", cursive;
+    border-color: black;
+    
+}
+}
